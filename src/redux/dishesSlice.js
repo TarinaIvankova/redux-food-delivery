@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 export const dishesSlice= createSlice({
     name:'dishes',
     initialState:{
-        selectedCategory:"SEAFOOD"
+        selectedCategory:"SALADS"
     },
     reducers: {
 filterCategory: (state, action)=>{

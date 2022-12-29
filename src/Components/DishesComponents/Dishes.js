@@ -6,12 +6,12 @@ import { getSelectedCategory } from "../../redux/dishesSlice";
 
 const Dishes=()=>{
 const selectedCategory=useSelector(getSelectedCategory);
-    return(<div>
-        {dataDishes
+    return(<div >
+        {dataDishes 
         .filter( dish=>{
             if (selectedCategory==='ALL') return true;
             return selectedCategory===dish.category;
-        }).map(dish=><Dish dish={dish}/>)}
+        }).map((dish, id)=><Dish  key={id} dish={dish}/>)}
     </div>)
 }
 export default Dishes

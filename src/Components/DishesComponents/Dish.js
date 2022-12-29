@@ -13,13 +13,13 @@ const Dish =({dish})=>{
     const handleClick =()=>{
         dishInCart
         ? dispatch(updateQuantity({dish, quantity}))
-        : dispatch(addItemToCart + ({dish, quantity}))
+        : dispatch(addItemToCart({dish, quantity}))
     }
 
     return (
 <div className="component">
     
-    <img src={`./${dish.img}.jpeg`} alt='iconka2'/>
+    <img src={`${dish.img}.jpeg`} alt='iconka2'/>
     <div className="mainComponent">
         <div className="name1">
     <h2>{dish.name} </h2>

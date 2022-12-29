@@ -29,6 +29,10 @@ img {
 .name1, .price1 {
   width: 200px;
 }
+.price1 {
+  color: #13441b;
+  font-weight: bold;
+}
 .categories {
   display: flex;
   justify-content: space-around;
@@ -123,4 +127,56 @@ margin-right: 50px;
 }
 .icon {
   width: 20px;
+}
+
+@media all and (max-width:800px){
+  img {
+    width: 300px;
+  }
+  .name1, .price1 {
+    width: 150px;
+  }
+  .categories {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  .dishesname {
+    width: 100px;
+  }
+  .quantity {
+    width: 70px;
+  }
+  .price {
+    width: 70px;
+  }
+  p, h1, h2, button {
+    font-size: 17px;
+  }
+}
+@media all and (max-width:400px){
+  .App {
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+@media all and (max-width:330px){
+img {
+  width: 260px;
+}
+.name1, .price1 {
+  width: 150px;
+}
+.categories {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+}
+p, h1, h2, button {
+  font-size: 14px;
+}
+.plus, .minus {
+  margin-top: 10px;
+}
 }

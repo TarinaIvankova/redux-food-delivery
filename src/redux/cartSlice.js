@@ -10,7 +10,8 @@ addItemToCart: (state, action)=>{
     //const timeId=new Date().getTime()
     state.cartItems.push({
         //id: timeId,
-        dishId: action.payload.dish.id,
+        //dishId: action.payload.dish.id,
+        ...action.payload.dish,
         quantity: action.payload.quantity,
         totalPrice: action.payload.quantity* action.payload.dish.price
     })

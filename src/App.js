@@ -7,7 +7,7 @@ import Cart from './Components/Cart/Cart';
 function App() {
   return (
     <div className="App">
-      <div className='block'>
+      <div className='block1'>
    <AllCategories/>
    <Cart/>
    </div>

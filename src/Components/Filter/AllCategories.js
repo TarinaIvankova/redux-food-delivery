@@ -2,9 +2,9 @@ import Filter from "./Filter"
 
 const AllCategories=()=>{
     return(<div>
-        <h1>КАКУЮ ЕДУ ПРЕДПОЧИТАЕТЕ?</h1>
+        <h1>The best electric guitars and accessories for them!</h1>
         <div className="categories">
-        {['SEAFOOD', 'ITALIAN', 'APPETIZERS', 'SALADS', 'ALL'].map ((category, index)=> <Filter key={index} category={category}/>)}
+        {['COMBO AMPLIFIER', 'ELECTRIC GUITARS', 'CASE', 'STRINGS', 'ALL'].map ((category, index)=> <Filter key={index} category={category}/>)}
         </div>
     </div>)
 }

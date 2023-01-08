@@ -22,15 +22,16 @@ const Dish =({dish})=>{
     <img src={`${dish.img}.jpeg`} alt='iconka2'/>
     <div className="mainComponent">
         <div className="name1">
-    <h2>{dish.name} </h2>
-    </div>
-    <div className="price1">
-    <p> {dish.price} руб.</p>
-    </div>
+            <h2>{dish.name} </h2>
+        </div>
+        <div className="price1">
+            <p>$ {dish.price} </p>
+        </div>
     </div>
     <div className="add">
+        {/*Сколько порций?*/}
     <ChangeQuantity quantity={quantity} setQuantity={setQuantity}/>
-    <button className="addToCart" onClick={handleClick}>В корзину</button>
+    <button className="addToCart" onClick={handleClick}>Add to cart</button>
     </div>
 </div>
     )

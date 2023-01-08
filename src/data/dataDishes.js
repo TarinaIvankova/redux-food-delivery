@@ -4,13 +4,13 @@ const dataDishes = [
   
       id: 1,
   
-      price: 125,
+      price: 400,
   
-      img: 'pasta',
+      img: 'gitar-one',
   
-      name: 'Паста',
+      name: 'Yamaha IP-32',
   
-      category: 'ITALIAN'
+      category: 'ELECTRIC GUITARS'
   
   },
   
@@ -18,13 +18,13 @@ const dataDishes = [
   
     id: 2,
   
-    price: 550,
+    price: 150,
   
-    img: 'shrimp',
+    img: 'case-one',
   
-    name: 'Креветки ',
+    name: 'Thick case for electric guitar',
   
-    category: 'SEAFOOD'
+    category: 'CASE'
   
   },
   
@@ -34,11 +34,11 @@ const dataDishes = [
   
     price: 730,
   
-    img: 'salmon',
+    img: 'gitar-two',
   
-    name: 'Лосось с овощами',
+      name: 'Fender Squier',
   
-    category: 'SEAFOOD'
+      category: 'ELECTRIC GUITARS'
   
   },
   
@@ -48,11 +48,11 @@ const dataDishes = [
   
       price: 840,
   
-      img: 'baked-salmon',
+      img: 'case-two',
   
-      name: 'Лосось на гриле',
+    name: 'Thick case for electric guitar',
   
-      category: 'SEAFOOD'
+    category: 'CASE'
   
   },
   
@@ -60,13 +60,13 @@ const dataDishes = [
   
     id: 5,
   
-    price: 150,
+    price: 650,
   
-    img: 'cheese-balls',
+    img: 'gitar-three',
   
-    name: 'Сырные шарики',
-  
-    category: 'APPETIZERS'
+    name: 'Ibanez 12-2',
+
+    category: 'ELECTRIC GUITARS'
   
   },
   
@@ -74,13 +74,13 @@ const dataDishes = [
   
     id: 6,
   
-    price: 220,
+    price: 120,
   
-    img: 'easy-pasta',
+    img: 'strings-one',
   
-    name: 'Лёгкая паста',
+    name: 'Strings silver',
   
-    category: 'ITALIAN'
+    category: 'STRINGS'
   
   },
   
@@ -88,13 +88,13 @@ const dataDishes = [
   
     id: 7,
   
-    price: 225,
+    price: 825,
   
-    img: 'spag-tomato',
+    img: 'gitar-four',
   
-    name: 'Спагетти',
-  
-    category: 'ITALIAN'
+    name: 'Gibson',
+
+    category: 'ELECTRIC GUITARS'
   
   },
   
@@ -102,13 +102,13 @@ const dataDishes = [
   
     id: 8,
   
-    price: 420,
+    price: 160,
   
-    img: 'mixed-pizza',
+    img: 'strings-two',
   
-    name: 'Пицца Люкс',
+    name: 'Strings gold',
   
-    category: 'ITALIAN'
+    category: 'STRINGS'
   
   },
   
@@ -116,13 +116,13 @@ const dataDishes = [
   
     id: 9,
   
-    price: 320,
+    price: 220,
   
-    img: 'spring-rolls',
+    img: 'comboamplifier-one',
   
-    name: 'Блинные роллы',
+    name: 'Combo amplifier',
   
-    category: 'APPETIZERS'
+    category: 'COMBO AMPLIFIER'
   
   },
   
@@ -132,11 +132,11 @@ const dataDishes = [
   
     price: 300,
   
-    img: 'tomato-salad',
+    img: 'comboamplifier-two',
   
-    name: 'Салат',
+    name: 'Combo amplifier',
   
-    category: 'SALADS'
+    category: 'COMBO AMPLIFIER'
   
   },
   
@@ -146,11 +146,11 @@ const dataDishes = [
   
     price: 350,
   
-    img: 'feta',
+    img: 'comboamplifier-one',
   
-    name: 'Греческий салат',
+    name: 'Combo amplifier',
   
-    category: 'SALADS'
+    category: 'COMBO AMPLIFIER'
   
   }
   

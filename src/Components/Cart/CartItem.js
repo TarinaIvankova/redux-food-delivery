@@ -13,10 +13,10 @@ const dispatch=useDispatch();
       <p>{cartItem.name}</p>
     </div>
     <div className="quantity">
-      <p>{cartItem.quantity} шт</p>
+      <p>{cartItem.quantity} pcs.</p>
     </div>
     <div className="price">
-      <p> {cartItem.price * cartItem.quantity} руб.</p>
+      <p>$ {cartItem.price * cartItem.quantity} </p>
     </div>
     <div className="delete">
       <span onClick={()=>dispatch(removeItemFromCart({cartItemId: cartItem.id}))}>

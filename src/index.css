@@ -157,7 +157,7 @@ margin-right: 50px;
 
 @media all and (max-width:800px){
   img {
-    width: 300px;
+    width: 500px;
   }
   .name1, .price1 {
     width: 150px;
@@ -165,7 +165,7 @@ margin-right: 50px;
   .categories {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    align-items: center;
   }
   .dishesname {
     width: 100px;
@@ -179,13 +179,42 @@ margin-right: 50px;
   p, h1, h2, button {
     font-size: 17px;
   }
+  .cart {
+    display: flex;
+    flex-direction: column;
+align-items: center;
+margin-left: 10px;
+  }
+  .component {
+    display: flex;
+flex-direction: column;
+align-items: center;
+  margin: 5px;
+  }
+  .mainComponent{
+    display: flex;
+    align-items: flex-start;
+  }
+}
+@media all and (max-width:500px){
+  img {
+    width: 400px;
+  }
+  .categories {
+    width: 400px;
+  }
 }
 @media all and (max-width:400px){
   .App {
     display: flex;
     flex-direction: column;
   }
-  
+  img {
+    width: 360px;
+  }
+  .categories {
+    width: 330px;
+  }
 }
 @media all and (max-width:330px){
 img {
